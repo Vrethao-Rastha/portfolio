@@ -32,7 +32,7 @@ class TopNav extends Component {
 
         {/* Id section */}
         <div className="id-block1">
-          Bryan Cox <br/>
+          Bryan C<span>o</span>x <br/>
         </div>
         <div className="id-block2">
           Full Stack Devel<span>o</span>per | <br/> <strong>R<span>o</span>ad Warri<span>o</span>r</strong>
