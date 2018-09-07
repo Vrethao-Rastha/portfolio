@@ -125,6 +125,25 @@ li:nth-child(9):hover {
   margin-top: 3em;
   box-shadow: 3px 3px black;
   padding: 0px;
+  height: 25em;
+}
+.projects-title {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+.project-button {
+  border-radius: 50%;
+}
+.toggle-project-button {
+  width: 2em;
+  color: red;
+  background-color: white;
+}
+.toggle-project-button:hover{
+  width: 2em;
+  color: red;
+  background-color: white;
 }
 .skills-heading {
   border: 1px solid black;
