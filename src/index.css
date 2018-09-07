@@ -228,6 +228,9 @@ li:nth-child(9):hover {
   margin-top: 2.7em;
   font-family: 'Cinzel', serif;
 }
+.contact {
+  height: 99vh;
+}
 .Landing {
   background-image: url('../src/images/apocalypse-483425_1920.jpg');
   height: 100vh;

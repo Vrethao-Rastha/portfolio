@@ -4,7 +4,7 @@ import { Card, CardText, CardBody, CardImg,
 
 import ibm from '../../images/ibm.jpg'
 import watson from '../../images/watson.png'
-import github from '../../images/github.png'
+import github from '../../images/github.jpg'
 import heroku from '../../images/heroku.png'
 
 class Other extends Component {
@@ -17,18 +17,6 @@ class Other extends Component {
             <hr/>
             <Row>
               <div>
-                <CardImg className="image-responsive" src={ibm}></CardImg>
-                <div className="text-center">
-                  IBM Bluemix
-                </div>
-              </div>
-              <div>
-                <CardImg className="image-responsive" src={watson}></CardImg>
-                <div className="text-center">
-                  IBM Watson
-                </div>
-              </div>
-              <div>
                 <CardImg className="image-responsive" src={github}></CardImg>
                 <div className="text-center">
                   Github
@@ -40,6 +28,19 @@ class Other extends Component {
                   Heroku
                 </div>
               </div>
+              <div>
+                <CardImg className="image-responsive" src={ibm}></CardImg>
+                <div className="text-center">
+                  IBM Bluemix
+                </div>
+              </div>
+              <div>
+                <CardImg className="image-responsive" src={watson}></CardImg>
+                <div className="text-center">
+                  IBM Watson
+                </div>
+              </div>
+
             </Row>
 
           </CardBody>
