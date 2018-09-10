@@ -13,7 +13,7 @@ class Javascript extends Component {
   render() {
     return (
       <div>
-        <Card className="skill-card col-md-9 offset-md-2">
+        <Card className="skill-card col-md-9 offset-md-1">
           <CardBody className="skill-body">
             <CardTitle className="skill-title">JavaScript</CardTitle>
             <hr/>

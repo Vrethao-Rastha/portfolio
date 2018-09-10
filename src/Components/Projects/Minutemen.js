@@ -34,14 +34,16 @@ class Minutemen extends Component {
 
             <CardBody>
 
-                <CardText>My final school project. An IBM Watson powered survival assistant chatbot and news/blog page.
+                <CardText>Capstone project. A reimagining of my first project, React/Redux, Bootstrap, Ruby on Rails, Bluemix, IBM Watson powered chatbot.
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-
-              <FontAwesomeIcon icon="box-open" color="#586295" size="4x"/>
-              <FontAwesomeIcon icon={["fab","github-square"]} color="#586295" size="4x"/>
-
+              <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
+            </a>
+            <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
+            </a>
             </CardFooter>
           </Card>
         )}

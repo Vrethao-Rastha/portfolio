@@ -23,7 +23,7 @@ class Inquisitor extends Component {
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
           <CardBody>
             <CardTitle className="projects-title"><span>40k Inquisit<span>o</span>r's Assistant</span></CardTitle>
-              <CardText>A visual assistant of sorts for the Warhammer 40k RPG I run on friday nights.
+              <CardText>A visual aid of sorts for the Warhammer 40k RPG I run on friday nights.
               </CardText>
             <Button className="project-button" onClick={this.toggle}>Details</Button>
           </CardBody>
@@ -36,14 +36,16 @@ class Inquisitor extends Component {
 
             <CardBody>
 
-                <CardText>A visual assistant of sorts for the Warhammer 40k RPG I run on friday nights.
+                <CardText>Simple interactive UI, React/Redux, PostgreSQL, Bootstrap.
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-
-              <FontAwesomeIcon icon="box-open" color="#586295" size="4x"/>
-              <FontAwesomeIcon icon={["fab","github-square"]} color="#586295" size="4x"/>
-
+              <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
+            </a>
+            <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
+            </a>
             </CardFooter>
           </Card>
         )}

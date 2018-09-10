@@ -35,15 +35,18 @@ class RadioFreedom extends Component {
             <CardBody>
 
               <CardText>My first school project, three weeks in.<br/>
+              Also my first ever project, having never written code three weeks prior.<br/>
               Simple forward facing app using HTML, CSS and JavaScript.
 
             </CardText>
           </CardBody>
           <CardFooter className="project-footer">
-
-            <FontAwesomeIcon icon="box-open" color="#586295" size="4x"/>
-            <FontAwesomeIcon icon={["fab","github-square"]} color="#586295" size="4x"/>
-
+            <a href="http://www.google.com" target="_blank">
+            <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
+          </a>
+          <a href="http://www.google.com" target="_blank">
+            <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
+          </a>
           </CardFooter>
         </Card>
         )}

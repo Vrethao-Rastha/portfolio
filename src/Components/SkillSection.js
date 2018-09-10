@@ -13,11 +13,11 @@ import Other from './Skills/Other'
 class SkillSection extends Component {
   render() {
     return (
-      <div className="section-2" id="skills">
+      <div id="skills-bar" className="section-2" >
         <div className="skills-heading">Skills</div>
 
           <div className="row">
-            <div className="col-md-10">
+            <div className="col-md-12">
 
               <Html />
 

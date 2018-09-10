@@ -33,15 +33,18 @@ class Cardify extends Component {
             <Button className="toggle-project-button" onClick={this.toggle}>X</Button>
             <CardBody>
 
-                <CardText>Server side rendered using Express, EJS, PostgreSQL, Bootstrap
-
+                <CardText>Server side rendered using Express, EJS, PostgreSQL, Bootstrap.<br/>
+                I was responsable for the Admin functionality as well as the authentication.<br/>
+                Created in three days as a group project.
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-
-              <FontAwesomeIcon icon="box-open" color="#586295" size="4x"/>
-              <FontAwesomeIcon icon={["fab","github-square"]} color="#586295" size="4x"/>
-
+              <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
+            </a>
+            <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
+            </a>
             </CardFooter>
           </Card>
         )}

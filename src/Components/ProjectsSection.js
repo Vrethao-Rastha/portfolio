@@ -10,7 +10,7 @@ import VulkansForge from './Projects/VulkansForge'
 import pic from '../images/black-and-white-blueprint-blur-716661.jpg'
 
   const backgroundStyle = {
-    width: "100%",
+    width: "90%",
     height: "80em",
     backgroundSize: "cover",
     zIndex:"-1",
@@ -20,7 +20,7 @@ import pic from '../images/black-and-white-blueprint-blur-716661.jpg'
 class ProjectsSection extends Component {
   render() {
     return (
-      <div className="section-2" id="projects" style={backgroundStyle}>
+      <div id="project-bar" className="section-2" style={backgroundStyle}>
         <div className="projects-heading">Pr<span>o</span>jects</div>
         <div className="col-md-10">
           <div className="project-row">

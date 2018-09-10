@@ -35,14 +35,18 @@ class VulkansForge extends Component {
 
             <CardBody>
 
-                <CardText>A social media app for crafters and Cosplayers.
+                <CardText>
+                My first attempt at a full stack React app, this was made over the course of four days,
+                using React, Redux, Bootstrap, PostgreSQL.<br/>
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-
-              <FontAwesomeIcon icon="box-open" color="#586295" size="4x"/>
-              <FontAwesomeIcon icon={["fab","github-square"]} color="#586295" size="4x"/>
-
+              <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
+            </a>
+            <a href="http://www.google.com" target="_blank">
+              <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
+            </a>
             </CardFooter>
           </Card>
         )}
