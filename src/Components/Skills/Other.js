@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Card, CardText, CardBody, CardImg,
   CardTitle, Row } from 'reactstrap';
 
-import ibm from '../../images/ibm.jpg'
 import watson from '../../images/watson.png'
 import github from '../../images/github.jpg'
 import heroku from '../../images/heroku.png'
@@ -26,12 +25,6 @@ class Other extends Component {
                 <CardImg className="image-responsive" src={heroku}></CardImg>
                 <div className="text-center">
                   Heroku
-                </div>
-              </div>
-              <div>
-                <CardImg className="image-responsive" src={ibm}></CardImg>
-                <div className="text-center">
-                  IBM Bluemix
                 </div>
               </div>
               <div>

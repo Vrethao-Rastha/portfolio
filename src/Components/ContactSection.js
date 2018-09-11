@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class ContactSection extends Component {
   render() {
     return (
-      <div id="contact-bar" className="section-2 contact" >
+      <div id="contact-bar" className="section-2 contact col-sm-12" >
         <div className="contact-heading">C<span>o</span>ntact</div>
         <div className="icon-section">
           <div className=" row align-items-center">

@@ -4,13 +4,12 @@ import AboutSection from './AboutSection'
 import ProjectsSection from './ProjectsSection'
 import SkillSection from './SkillSection'
 import EducationSection from './EducationSection'
-import ResumeSection from './ResumeSection'
 import ContactSection from './ContactSection'
 
 class Landing extends Component {
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <TopNav />
         <div className="Landing"></div>
 
@@ -21,8 +20,6 @@ class Landing extends Component {
         <SkillSection />
 
         <EducationSection />
-
-        <ResumeSection />
 
         <ContactSection />
     </div>

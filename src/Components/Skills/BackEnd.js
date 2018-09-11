@@ -15,7 +15,7 @@ class BackEnd extends Component {
           <CardBody className="skill-body">
             <CardTitle className="skill-title">Back-End Tech</CardTitle>
             <hr/>
-            <hr/>
+            
             <Row>
               <div>
                 <CardImg className="image-responsive" src={express}></CardImg>

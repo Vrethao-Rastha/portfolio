@@ -16,7 +16,7 @@ class VulkansForge extends Component {
 
   render() {
     return (
-      <div className="col-md-3 offset-md-1 ">
+      <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 project-card">
         {renderIf(this.state.toggle === false,
         <Card className="projects-content ">
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
