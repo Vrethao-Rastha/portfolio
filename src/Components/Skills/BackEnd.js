@@ -6,6 +6,7 @@ import postgresql from '../../images/postgresql.png'
 import rails from '../../images/rails.png'
 import ruby from '../../images/ruby.png'
 import express from '../../images/node-express.jpeg'
+import MongoDB from '../../images/MongoDB.jpg'
 
 class BackEnd extends Component {
   render() {
@@ -39,6 +40,12 @@ class BackEnd extends Component {
                 <CardImg className="image-responsive" src={postgresql}></CardImg>
                 <div className="text-center">
                   PostgreSQL
+                </div>
+              </div>
+              <div>
+                <CardImg className="image-responsive" src={MongoDB}></CardImg>
+                <div className="text-center">
+                  MongoDB
                 </div>
               </div>
 

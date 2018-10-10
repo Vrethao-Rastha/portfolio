@@ -6,6 +6,7 @@ import Inquisitor from './Projects/Inquisitor'
 import Minutemen from './Projects/Minutemen'
 import RadioFreedom from './Projects/RadioFreedom'
 import VulkansForge from './Projects/VulkansForge'
+import Ticket from './Projects/Ticket'
 
 import pic from '../images/black-and-white-blueprint-blur-716661.jpg'
 
@@ -34,6 +35,9 @@ class ProjectsSection extends Component {
           <Minutemen />
 
           <Inquisitor />
+
+          <Ticket />
+
         </Row>
           </div>
         </div>

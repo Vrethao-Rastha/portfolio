@@ -6,7 +6,7 @@ import JavaScript from '../../images/javascript.png'
 import react from '../../images/react.png'
 import redux from '../../images/redux.png'
 import node from '../../images/nodejs.png'
-import yarn from '../../images/yarn.png'
+import angular from '../../images/angular.png'
 
 
 class Javascript extends Component {
@@ -44,9 +44,9 @@ class Javascript extends Component {
                 </div>
               </div>
               <div>
-                <CardImg className="image-responsive" src={yarn}></CardImg>
+                <CardImg className="image-responsive" src={angular}></CardImg>
                 <div className="text-center">
-                  Yarn
+                  Angular
                 </div>
               </div>
             </Row>

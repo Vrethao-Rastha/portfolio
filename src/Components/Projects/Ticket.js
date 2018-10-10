@@ -3,9 +3,9 @@ import { Card, CardImg, CardText, CardBody, CardFooter,
   CardTitle, Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import renderIf from '../Util'
-import flag from '../../images/Fo4-minutemen-flag.png'
+import ticket from '../../images/ticket.jpg'
 
-class Minutemen extends Component {
+class Ticket extends Component {
 
   state = {
     toggle: false
@@ -20,12 +20,12 @@ class Minutemen extends Component {
       <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 project-card">
         {renderIf(this.state.toggle === false,
         <Card className="projects-content ">
-          <CardImg top width="100%" style={{maxHeight:"50%"}} src={flag} alt="Card image cap" />
-          <CardBody>
-            <CardTitle className="projects-title">We Are the Minutemen</CardTitle>
-              <CardText>My final school project. An IBM Watson powered survival assistant chatbot and news/blog page.
+          <CardImg top width="100%" style={{maxHeight:"50%"}} src={ticket} alt="Card image cap" />
+          <CardBody className="d-flex flex-column">
+            <CardTitle className="projects-title">Ticket Manager</CardTitle>
+              <CardText>A Simple app to manage workorders created with Angular and MongoDB
               </CardText>
-            <Button className="project-button" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto col-md-3" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
@@ -36,14 +36,16 @@ class Minutemen extends Component {
 
             <CardBody>
 
-                <CardText>Capstone project. A reimagining of my first project, React/Redux, Bootstrap, Ruby on Rails, Bluemix, IBM Watson powered chatbot.
+                <CardText>
+                Created as part of a challenge to learn the MEAN stack.<br/>
+                A simple CRUD app to manage workorders using Angular, MongoDB, Mongoose Express and Node.js
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-              <a href="https://immense-temple-74459.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
             </a>
-            <a href="https://github.com/Vrethao-Rastha/we-are-the-minutemen" target="_blank" rel="noopener noreferrer">
+            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
             </a>
             </CardFooter>
@@ -54,4 +56,4 @@ class Minutemen extends Component {
   }
 }
 
-export default Minutemen;
+export default Ticket;

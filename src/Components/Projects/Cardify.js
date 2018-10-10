@@ -18,12 +18,12 @@ class Cardify extends Component {
       <div className="project-card col-lg-4 col-md-6 col-sm-12 col-xs-12">
         {renderIf(this.state.toggle === false,
         <Card className="projects-content ">
-          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-          <CardBody>
+          <CardImg top width="100%" style={{maxHeight:"50%"}}src="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
+          <CardBody className="d-flex flex-column">
             <CardTitle className="projects-title">Cardify</CardTitle>
               <CardText>A group project with two other students, basic Trello clone.
               </CardText>
-            <Button className="project-button" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto col-md-3" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
@@ -39,10 +39,10 @@ class Cardify extends Component {
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-              <a href="http://www.google.com" target="_blank">
+              <a href="https://rocky-retreat-92627.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
             </a>
-            <a href="http://www.google.com" target="_blank">
+            <a href="https://github.com/Vrethao-Rastha/Q2-Group-Project" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
             </a>
             </CardFooter>

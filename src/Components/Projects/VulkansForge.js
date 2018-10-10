@@ -3,6 +3,7 @@ import { Card, CardImg, CardText, CardBody, CardFooter,
   CardTitle, Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import renderIf from '../Util'
+import Vulkan from '../../images/Vulkan.jpg'
 
 class VulkansForge extends Component {
 
@@ -19,12 +20,12 @@ class VulkansForge extends Component {
       <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 project-card">
         {renderIf(this.state.toggle === false,
         <Card className="projects-content ">
-          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-          <CardBody>
+          <CardImg top width="100%" style={{maxHeight:"50%"}} src={Vulkan} alt="Card image cap" />
+          <CardBody className="d-flex flex-column">
             <CardTitle className="projects-title"><span>Vulkans F<span>o</span>rge</span></CardTitle>
               <CardText>A social media app for crafters and Cosplayers.
               </CardText>
-            <Button className="project-button" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto col-md-3" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
@@ -41,10 +42,10 @@ class VulkansForge extends Component {
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-              <a href="http://www.google.com" target="_blank">
+              <a href="https://polar-bastion-21872.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
             </a>
-            <a href="http://www.google.com" target="_blank">
+            <a href="https://github.com/Vrethao-Rastha/q3-final-project" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
             </a>
             </CardFooter>

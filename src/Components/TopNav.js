@@ -65,7 +65,7 @@ class TopNav extends Component {
           </a>
         </li>
         <li id="resume" className="nav-item">
-          <a className="nav-link-1 nav-link" href="#resume-bar">
+          <a className="nav-link-1 nav-link" href="https://resume.creddle.io/resume/boq922xiceu" target="_blank">
             <FontAwesomeIcon icon="file" color="#C7BB8A" size="1x"/>
             <span className="about">Resume</span>
           </a>
