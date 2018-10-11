@@ -25,14 +25,14 @@ class Inquisitor extends Component {
             <CardTitle className="projects-title"><span>40k Inquisit<span>o</span>r's Assistant</span></CardTitle>
               <CardText>A visual aid of sorts for the Warhammer 40k RPG I run on friday nights.
               </CardText>
-            <Button className="project-button" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
 
         {renderIf(this.state.toggle === true,
           <Card className="projects-content ">
-            <Button className="toggle-project-button" onClick={this.toggle}>X</Button>
+            <Button className="toggle-project-button mt-auto" onClick={this.toggle}>X</Button>
 
             <CardBody>
 

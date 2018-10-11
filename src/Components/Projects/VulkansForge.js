@@ -25,7 +25,7 @@ class VulkansForge extends Component {
             <CardTitle className="projects-title"><span>Vulkans F<span>o</span>rge</span></CardTitle>
               <CardText>A social media app for crafters and Cosplayers.
               </CardText>
-            <Button className="project-button mt-auto col-md-3" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}

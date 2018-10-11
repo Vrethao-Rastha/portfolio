@@ -23,9 +23,9 @@ class RadioFreedom extends Component {
             <CardImg top width="100%" style={{maxHeight:"50%"}} src={minuteman} alt="Card image cap" />
             <CardBody>
               <CardTitle className="projects-title"><span>Radi<span>o</span> Freed<span>o</span>m</span></CardTitle>
-                <CardText>A news/blog page to be used by the residents of post apocalyptic Boston in the Bethesda game Fallout 4.
+                <CardText>A news/blog page for the residents of Boston in the Bethesda game Fallout 4.
                 </CardText>
-              <Button className="project-button" onClick={this.toggle}>Details</Button>
+              <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
             </CardBody>
           </Card>
         )}

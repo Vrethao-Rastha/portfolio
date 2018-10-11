@@ -23,16 +23,16 @@ class Minutemen extends Component {
           <CardImg top width="100%" style={{maxHeight:"50%"}} src={flag} alt="Card image cap" />
           <CardBody>
             <CardTitle className="projects-title">We Are the Minutemen</CardTitle>
-              <CardText>My final school project. An IBM Watson powered survival assistant chatbot and news/blog page.
+              <CardText>My final school project. An IBM Watson survival assistant chatbot.
               </CardText>
-            <Button className="project-button" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
 
         {renderIf(this.state.toggle === true,
           <Card className="projects-content ">
-            <Button className="toggle-project-button" onClick={this.toggle}>X</Button>
+            <Button className="toggle-project-button mt-auto" onClick={this.toggle}>X</Button>
 
             <CardBody>
 

@@ -3,7 +3,7 @@ import pic from '../images/art-close-up-comic-16516.jpg'
 import { Card } from 'reactstrap'
 
 const backgroundStyle = {
-  width: "90%",
+  width: "100%",
   height: "65em",
   backgroundSize: "cover",
   zIndex:"-1",

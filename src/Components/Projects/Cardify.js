@@ -23,14 +23,14 @@ class Cardify extends Component {
             <CardTitle className="projects-title">Cardify</CardTitle>
               <CardText>A group project with two other students, basic Trello clone.
               </CardText>
-            <Button className="project-button mt-auto col-md-3" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
 
         {renderIf(this.state.toggle === true,
           <Card className="projects-content ">
-            <Button className="toggle-project-button" onClick={this.toggle}>X</Button>
+            <Button className="toggle-project-button mt-auto" onClick={this.toggle}>X</Button>
             <CardBody>
 
                 <CardText>Server side rendered using Express, EJS, PostgreSQL, Bootstrap.<br/>

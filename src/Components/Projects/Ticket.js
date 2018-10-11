@@ -25,7 +25,7 @@ class Ticket extends Component {
             <CardTitle className="projects-title">Ticket Manager</CardTitle>
               <CardText>A Simple app to manage workorders created with Angular and MongoDB
               </CardText>
-            <Button className="project-button mt-auto col-md-3" onClick={this.toggle}>Details</Button>
+            <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
