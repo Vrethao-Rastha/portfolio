@@ -28,7 +28,7 @@ class Other extends Component {
                 </div>
               </div>
               <div>
-                <CardImg className="image-responsive" src={watson}></CardImg>
+                <CardImg className="image-responsive pic-fix-2" src={watson}></CardImg>
                 <div className="text-center">
                   IBM Watson
                 </div>

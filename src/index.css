@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
 }
 
- @media screen and (max-width: 645px) and (min-width: 320px) {
+ @media screen and (max-width: 668px) and (min-width: 320px) {
   #about-card .about-content {
     font-size: 10pt;
   }
@@ -20,6 +20,25 @@ body {
   .contact-icon {
     font-size: 30pt;
   }
+  .image-responsive {
+    padding-left: 3em;
+  }
+  .pic-fix {
+    padding-left: 0;
+  }
+  .pic-fix-2 {
+    padding-left: 1.5em;
+  }
+  .name > div {
+    font-size: 20pt;
+  }
+  .desc > div {
+    display: none;
+  }
+  .road > div {
+    display: none;
+  }
+  
 }
 
 /*@media screen and (max-width: 1350px) and (min-width: 667px) {
@@ -74,6 +93,9 @@ div > span {
 a > span {
   font-size: 12pt;
 }
+.nav-icon {
+  display: none;
+}
 .nav-link-1 {
   color: #586295;
   
@@ -119,7 +141,21 @@ a > span {
   font-size: 1.3em;
   font-family: 'Cinzel', serif;
 }
-
+.name {
+  font-size: 30pt;
+  font-family: 'Cinzel', serif;
+}
+.desc {
+  font-size: 15pt;
+  font-family: 'Cinzel', serif;
+}
+.road {
+  font-size: 15pt;
+  font-family: 'Cinzel', serif;
+}
+strong > span {
+  font-size: 20pt;
+}
 .id-block1 {
   font-size: 2em;
   text-align: center;

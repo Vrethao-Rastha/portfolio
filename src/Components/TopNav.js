@@ -32,16 +32,21 @@ class TopNav extends Component {
 
   render() {
     return (
-      
+        
       <Navbar  color="dark" dark expand="md">
+      
     <NavbarToggler onClick={ this.toggle } />
+    
         <Collapse isOpen={this.state.isOpen} navbar>
+        
         <Nav>
         <ul className="navbar-nav mr-auto">
+        
         <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav>
-                  Options
+          <DropdownToggle className="" nav>
+                  Navigation
                 </DropdownToggle>
+                
                 <DropdownMenu left>
                 <DropdownItem className="" >
                 <a className="nav-link-1 nav-link" href="#about-bar">
@@ -87,14 +92,20 @@ class TopNav extends Component {
 
         </ul>
         </Nav>
+        <NavbarBrand className="mx-auto"><div className="name">
+        <div>Bryan C<span>o</span>x</div>
+        </div></NavbarBrand>
 
-    <NavbarBrand className="mx-auto"><span>Bryan C<span>o</span>x</span></NavbarBrand>
-
-    <NavbarBrand><span>Full Stack Devel<span>o</span>per | </span><strong>R<span>o</span>ad Warri<span>o</span>r</strong></NavbarBrand>
+    
     
         </Collapse>
-</Navbar>
+        <NavbarBrand ><div className="desc"><div>
+        Full Stack Devel<span>o</span>per |</div> 
+        </div></NavbarBrand>
 
+      <NavbarBrand ><div className="road"><div>R<span>o</span>ad Warri<span>o</span>r
+      </div></div></NavbarBrand>
+</Navbar>
     );
   }
 }

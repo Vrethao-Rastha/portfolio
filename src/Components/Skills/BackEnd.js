@@ -19,13 +19,13 @@ class BackEnd extends Component {
             
             <Row>
               <div>
-                <CardImg className="image-responsive" src={express}></CardImg>
+                <CardImg className="image-responsive pic-fix" src={express}></CardImg>
                 <div className="text-center">
                   Express-Node
                 </div>
               </div>
               <div>
-                <CardImg className="image-responsive" src={ruby}></CardImg>
+                <CardImg className="image-responsive pic-fix-2" src={ruby}></CardImg>
                 <div className="text-center">
                   Ruby
                 </div>
@@ -43,7 +43,7 @@ class BackEnd extends Component {
                 </div>
               </div>
               <div>
-                <CardImg className="image-responsive" src={MongoDB}></CardImg>
+                <CardImg className="image-responsive pic-fix" src={MongoDB}></CardImg>
                 <div className="text-center">
                   MongoDB
                 </div>
