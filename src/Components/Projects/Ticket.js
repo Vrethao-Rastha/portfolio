@@ -42,10 +42,10 @@ class Ticket extends Component {
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-              <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://frozen-earth-84507.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
             </a>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Vrethao-Rastha/angular-demo-app" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
             </a>
             </CardFooter>

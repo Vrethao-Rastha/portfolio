@@ -10,7 +10,7 @@ class EducationSection extends Component {
         <div className='education-heading'> Educati<span>o</span>n</div>
 
         <div className="col-md-10">
-          <Card className="col-md-6 offset-md-3 education-card">
+          <Card className="col-md-8 education-card">
             <Media>
               <Media left>
                 <CardImg className="eduPic" src={ galPic }></CardImg>
