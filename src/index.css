@@ -41,40 +41,6 @@ body {
   
 }
 
-/*@media screen and (max-width: 1350px) and (min-width: 667px) {
-
-  #side-nav {
-    flex-direction: column
-  }
-
-  #about-card {
-    margin-top: 6em;
-    border-radius: 50%;
-    border: 1px solid black;
-  }
-  #about-card .about-statement {
-    font-size: 20pt;
-  }
-   .about{
-    font-size: 8pt;
-  }
-  #about-card .about-content {
-    font-size: 15pt;
-  }
-
-  .project-card {
-    width:100%;
-    float:left;
-    margin:0;
-    padding-top: .75rem;
-	  padding-bottom: .75rem;
-  }
-  #project-bar {
-    margin-bottom: 1em;
-    justify-content: center;
-  }
-} */
-
 ul > li {
   margin-top: 2em;
 }
@@ -270,7 +236,6 @@ font-size: 1em;
   margin-left: 2em;
   margin-bottom: .5em;
 }
-
 .education-heading {
   border: 1px solid black;
   font-size: 3em;
@@ -341,7 +306,6 @@ font-size: 1em;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .Landing:after {
   animation: grain 8s steps(10) infinite;
   background-image: url("../src/images/paper_1.png");
@@ -353,7 +317,6 @@ font-size: 1em;
   top: -100%;
   width: 300%;
 }
-
 @keyframes grain {
   0%, 100% { transform:translate(0, 0) }
   10% { transform:translate(-5%, -10%) }
