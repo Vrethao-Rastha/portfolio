@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Card, CardText, CardBody, CardImg,
-  CardTitle, Row } from 'reactstrap';
 import Html from './Skills/Html'
 import Javascript from './Skills/Javascript'
 import BackEnd from './Skills/BackEnd'

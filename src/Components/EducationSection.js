@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, Row, Media } from 'reactstrap';
+import { Card, CardImg, CardSubtitle, Media } from 'reactstrap';
 import galPic from '../images/download.png'
 
 class EducationSection extends Component {
@@ -9,7 +8,7 @@ class EducationSection extends Component {
       <div id="education-bar" className="section-2" >
         <div className='education-heading'> Educati<span>o</span>n</div>
 
-        <div className="col-md-10 offset-md-1">
+        <div className="col-md-9 offset-md-1">
           <Card className="education-card">
             <Media>
               <Media left>

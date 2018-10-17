@@ -109,14 +109,17 @@ a > span {
 }
 .name {
   font-size: 30pt;
+  color: gray;
   font-family: 'Cinzel', serif;
 }
 .desc {
   font-size: 15pt;
+  color: gray;
   font-family: 'Cinzel', serif;
 }
 .road {
   font-size: 15pt;
+  color: gray;
   font-family: 'Cinzel', serif;
 }
 strong > span {

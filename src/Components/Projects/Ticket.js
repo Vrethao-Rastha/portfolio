@@ -23,7 +23,7 @@ class Ticket extends Component {
           <CardImg top width="100%" style={{maxHeight:"50%"}} src={ticket} alt="Card image cap" />
           <CardBody className="d-flex flex-column">
             <CardTitle className="projects-title">Ticket Manager</CardTitle>
-              <CardText>A Simple app to manage workorders created with Angular and MongoDB
+              <CardText>A Simple app to manage workorders in an office enviorment.
               </CardText>
             <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>

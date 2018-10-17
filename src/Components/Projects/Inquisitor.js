@@ -36,7 +36,7 @@ class Inquisitor extends Component {
 
             <CardBody>
 
-                <CardText>Simple interactive UI, React/Redux, Express, PostgreSQL, Bootstrap.
+                <CardText>Simple interactive UI, React/Redux, Express, PostgreSQL, Bootstrap. I used React Particle Effect Button and React Glitch for the CSS effects.
                  <br/> A hands on way for my players to investigate computer records, search for Heretics, etc... Login credentials are Username: Guest, Password: asdf
                 </CardText>
             </CardBody>

@@ -36,7 +36,7 @@ class Minutemen extends Component {
 
             <CardBody>
 
-                <CardText>Capstone project. A reimagining of my first project, React/Redux, Bootstrap, Ruby on Rails, Bluemix, IBM Watson powered chatbot.
+                <CardText>My Galvanize Capstone project. A reimagining of my first project, React/Redux, Bootstrap, Ruby on Rails, Bluemix, JSON web tokens for authentication and an IBM Watson powered survival assistant chatbot to help you survive the post apocalyptic wasteland.
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">

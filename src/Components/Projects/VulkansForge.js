@@ -38,7 +38,7 @@ class VulkansForge extends Component {
 
                 <CardText>
                 My first attempt at a full stack React app, this was made over the course of four days,
-                using React, Redux, Bootstrap, PostgreSQL.<br/>
+                using React, Redux, Bootstrap, Express and PostgreSQL.<br/>
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">

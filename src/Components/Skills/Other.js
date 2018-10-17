@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardText, CardBody, CardImg,
+import { Card, CardBody, CardImg,
   CardTitle, Row } from 'reactstrap';
 
 import watson from '../../images/watson.png'

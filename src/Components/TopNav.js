@@ -4,17 +4,12 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Col,
-  Row
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import renderIf from './Util'
 import React, {Component} from 'react';
 
 class TopNav extends Component {
@@ -43,8 +38,8 @@ class TopNav extends Component {
         <ul className="navbar-nav mr-auto">
         
         <UncontrolledDropdown nav inNavbar>
-          <DropdownToggle className="" nav>
-                  Navigation
+          <DropdownToggle nav>
+          <div>Navigati<span>o</span>n</div>
                 </DropdownToggle>
                 
                 <DropdownMenu left>
