@@ -14,14 +14,17 @@
     "popper": "^1.0.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-meta-tags": "^0.7.1",
     "react-scripts": "1.1.5",
     "reactstrap": "^6.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-snap": "^1.19.0"
   }
 }
