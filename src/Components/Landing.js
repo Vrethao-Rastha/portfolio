@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import TopNav from './TopNav'
 import AboutSection from './AboutSection'
 import ProjectsSection from './ProjectsSection'
@@ -7,6 +8,20 @@ import EducationSection from './EducationSection'
 import ContactSection from './ContactSection'
 
 class Landing extends Component {
+
+  state = {
+    modal: false
+  }
+
+  toggle = () => {
+    this.setState({modal: !this.state.modal})
+  }
+
+  componentDidMount() {
+    setTimeout(() => {this.setState({modal: true})}, 1500)
+    setTimeout(() => {this.setState({modal: false})}, 5000)
+  }
+
   render() {
     return (
       <div className="container-fluid">
@@ -22,6 +37,12 @@ class Landing extends Component {
         <EducationSection />
 
         <ContactSection />
+
+        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} style={{marginTop:"10em", fontFamily:"Cinzel"}}>
+          <ModalHeader toggle={this.toggle}><div>Full Stack Devel<span>o</span>per at y<span>o</span>ur service.</div></ModalHeader>
+
+        </Modal>
+
     </div>
     );
   }

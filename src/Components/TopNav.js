@@ -35,9 +35,9 @@ class TopNav extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
         
         <Nav>
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav mr-auto row align-items-center">
         
-        <UncontrolledDropdown nav inNavbar>
+        <UncontrolledDropdown className="col drop" nav inNavbar>
           <DropdownToggle nav>
           <div>Navigati<span>o</span>n</div>
                 </DropdownToggle>
@@ -88,7 +88,7 @@ class TopNav extends Component {
         </ul>
         </Nav>
         <NavbarBrand className="mx-auto"><div className="name">
-        <div>Bryan C<span>o</span>x</div>
+        <div style={{marginLeft:"5em"}}>Bryan C<span>o</span>x</div>
         </div></NavbarBrand>
 
     

@@ -69,6 +69,10 @@ a > span {
   border: none;
   padding: 0px;
 }
+.drop {
+  margin-top: 0px;
+  font-size: 15pt;
+}
 .about {
   margin-left: 1em;
   color: black
@@ -109,17 +113,17 @@ a > span {
 }
 .name {
   font-size: 30pt;
-  color: gray;
+  color: #B3B5B7;
   font-family: 'Cinzel', serif;
 }
 .desc {
   font-size: 15pt;
-  color: gray;
+  color: #B3B5B7;
   font-family: 'Cinzel', serif;
 }
 .road {
   font-size: 15pt;
-  color: gray;
+  color: #B3B5B7;
   font-family: 'Cinzel', serif;
 }
 strong > span {
@@ -297,17 +301,16 @@ font-size: 1em;
 }
 .Landing {
   background-image: url('../src/images/apocalypse-483425_1920.jpg');
-  height: 100vh;
+  height: 60em;
   width: 100%;
-
   position: relative;
   top: 0;
   right: 0;
   z-index: -1;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: bottom;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .Landing:after {
   animation: grain 8s steps(10) infinite;
