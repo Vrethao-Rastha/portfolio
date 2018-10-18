@@ -24,17 +24,27 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <div style={{padding:"0"}} className="container-fluid">
         <TopNav />
         <div className="Landing"></div>
 
+        <div id="about-bar" style={{paddingBottom:"5em"}}></div>
+
         <AboutSection />
+
+        <div id="project-bar" style={{paddingBottom:"5em"}}></div>
 
         <ProjectsSection />
 
+        <div id="skills-bar" style={{marginBottom:"6.5em"}}></div>
+
         <SkillSection />
 
+        <div id="education-bar"  style={{marginBottom:"5em"}}></div>
+
         <EducationSection />
+
+        <div id="contact-bar"  style={{marginBottom:"7em"}}></div>
 
         <ContactSection />
 

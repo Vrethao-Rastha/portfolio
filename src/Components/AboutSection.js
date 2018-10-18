@@ -4,7 +4,7 @@ import { Card } from 'reactstrap'
 
 const backgroundStyle = {
   width: "100%",
-  height: "65em",
+  height: "75em",
   backgroundSize: "cover",
   zIndex:"-1",
   backgroundImage: `url(${pic})`
@@ -13,7 +13,9 @@ const backgroundStyle = {
 class AboutSection extends Component {
   render() {
     return (
-      <div id="about-bar" className="section-2" style={backgroundStyle}>
+    <div style={backgroundStyle}>
+
+      <div className="section-2">
 
         <div className="about-heading">
           Ab<span>o</span>ut
@@ -33,6 +35,7 @@ class AboutSection extends Component {
           </div>
         </Card>
       </div>
+    </div>
     );
   }
 }

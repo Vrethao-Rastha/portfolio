@@ -18,7 +18,7 @@ class TopNav extends Component {
     isOpen: false
   };
 
-  toggle = e => {
+  toggler = e => {
     this.setState({
       isOpen: !this.state.isOpen
     });
@@ -27,22 +27,36 @@ class TopNav extends Component {
 
   render() {
     return (
-        
-      <Navbar  color="dark" dark expand="md">
+        <div className="container-fluid no-gutters">
+      <Navbar style={{position:"fixed", top:"0", left:"0", width:"100%", marginLeft:"0", zIndex:"1"}}  color="dark" dark expand="md">
+
+
+       <NavbarBrand className=""><div className="name">
+        <div>Bryan C<span>o</span>x</div>
+        </div></NavbarBrand>
+
+            <NavbarToggler onClick={ this.toggler } />
+
+
+    <NavbarBrand ><div className="desc ml-5"><div>
+        Full Stack Devel<span>o</span>per |</div> 
+        </div></NavbarBrand>
+
+      <NavbarBrand className=""><div className="road"><div>R<span>o</span>ad Warri<span>o</span>r
+      </div></div></NavbarBrand>
       
-    <NavbarToggler onClick={ this.toggle } />
-    
+
         <Collapse isOpen={this.state.isOpen} navbar>
         
-        <Nav>
-        <ul className="navbar-nav mr-auto row align-items-center">
+        <Nav className="ml-auto">
+        <div className="row align-items-center">
         
         <UncontrolledDropdown className="col drop" nav inNavbar>
           <DropdownToggle nav>
-          <div>Navigati<span>o</span>n</div>
+          <div className="desc">Navigati<span>o</span>n</div>
                 </DropdownToggle>
                 
-                <DropdownMenu left>
+                <DropdownMenu right>
                 <DropdownItem className="" >
                 <a className="nav-link-1 nav-link" href="#about-bar">
             <FontAwesomeIcon icon="coffee" color="#586295" size="1x"/>
@@ -85,22 +99,16 @@ class TopNav extends Component {
               </UncontrolledDropdown>
              
 
-        </ul>
+        </div>
         </Nav>
-        <NavbarBrand className="mx-auto"><div className="name">
-        <div style={{marginLeft:"5em"}}>Bryan C<span>o</span>x</div>
-        </div></NavbarBrand>
+        
 
     
     
         </Collapse>
-        <NavbarBrand ><div className="desc"><div>
-        Full Stack Devel<span>o</span>per |</div> 
-        </div></NavbarBrand>
-
-      <NavbarBrand ><div className="road"><div>R<span>o</span>ad Warri<span>o</span>r
-      </div></div></NavbarBrand>
+        
 </Navbar>
+</div>
     );
   }
 }

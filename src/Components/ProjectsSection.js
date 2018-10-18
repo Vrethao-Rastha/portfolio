@@ -11,7 +11,7 @@ import Ticket from './Projects/Ticket'
 class ProjectsSection extends Component {
   render() {
     return (
-      <div id="project-bar" className="section-2" >
+      <div className="section-2" >
         <div className="projects-heading">Pr<span>o</span>jects</div>
         <div className=" container">
           <div className="project-row ">
@@ -30,6 +30,7 @@ class ProjectsSection extends Component {
           <Ticket />
 
         </Row>
+            
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import galPic from '../images/download.png'
 class EducationSection extends Component {
   render() {
     return (
-      <div id="education-bar" className="section-2" >
+      <div className="section-2" >
         <div className='education-heading'> Educati<span>o</span>n</div>
 
         <div className="col-md-9 offset-md-1">

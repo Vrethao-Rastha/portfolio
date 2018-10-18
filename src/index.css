@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: sans-serif;
 }
 
@@ -126,6 +127,12 @@ a > span {
   color: #B3B5B7;
   font-family: 'Cinzel', serif;
 }
+.modal-open {
+  padding-right: 0 !important;
+}
+html {
+  overflow-y: scroll !important;
+}
 strong > span {
   font-size: 20pt;
 }
@@ -142,6 +149,12 @@ strong > span {
   margin-top: 1em;
   text-align: center;
 }
+#about-bar {
+  background-color: #343A40;
+}
+#project-bar {
+  background-color: #343A40;
+}
 .nav-section {
   background-color: white;
   position: fixed;
@@ -150,6 +163,7 @@ strong > span {
   padding-left: .2em;
   border-right: 1px solid black;
 }
+
 .about-heading {
   border: 1px solid black;
   padding-left: 1em; padding-top: .5em; padding-bottom: .5em;
@@ -301,11 +315,12 @@ font-size: 1em;
 }
 .Landing {
   background-image: url('../src/images/apocalypse-483425_1920.jpg');
-  height: 60em;
+  height: 100vh;
   width: 100%;
   position: relative;
   top: 0;
   right: 0;
+  left: 0;
   z-index: -1;
   background-attachment: fixed;
   background-position: bottom;
