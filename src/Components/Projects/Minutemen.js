@@ -23,7 +23,7 @@ class Minutemen extends Component {
           <CardImg top width="100%" style={{maxHeight:"50%"}} src={flag} alt="Card image cap" />
           <CardBody>
             <CardTitle className="projects-title">We Are the Minutemen</CardTitle>
-              <CardText>My final school project. An IBM Watson survival assistant chatbot.
+              <CardText>My final school project. News/Blog page and IBM Watson survival assistant chatbot.
               </CardText>
             <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>
@@ -36,7 +36,8 @@ class Minutemen extends Component {
 
             <CardBody>
 
-                <CardText>My Galvanize Capstone project. A reimagining of my first project, React/Redux, Bootstrap, Ruby on Rails, Bluemix, JSON web tokens for authentication and an IBM Watson powered survival assistant chatbot to help you survive the post apocalyptic wasteland.
+                <CardText>My Galvanize Capstone project. A reimagining of my Radio Freedom project, React/Redux, Bootstrap, Ruby on Rails, Bluemix, JSON web tokens for authentication and an IBM Watson powered survival assistant chatbot to help you survive the post apocalyptic wasteland.<br/>
+                Login credentials are Guest, Guest@email.com, password:12345
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader } from 'reactstrap';
 import TopNav from './TopNav'
 import AboutSection from './AboutSection'
 import ProjectsSection from './ProjectsSection'

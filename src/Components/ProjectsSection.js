@@ -15,6 +15,7 @@ class ProjectsSection extends Component {
         <div className="projects-heading">Pr<span>o</span>jects</div>
         <div className=" container">
           <div className="project-row ">
+          <div className="text-center" style={{fontFamily:"Cinzel", marginTop:"1em"}}>Note: these are currently hosted on free Heroku servers, and may load slowly.</div>
             <Row>
           <RadioFreedom />
 
