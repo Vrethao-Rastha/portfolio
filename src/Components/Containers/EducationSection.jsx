@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardSubtitle, Media } from 'reactstrap';
-import galPic from '../images/download.png'
+import galPic from '../../images/download.png'
 
 class EducationSection extends Component {
   render() {

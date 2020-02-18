@@ -3,7 +3,9 @@ import { Card, CardImg, CardText, CardBody, CardFooter,
   CardTitle, Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import renderIf from '../Util'
-class Cardify extends Component {
+import flag from '../../images/Fo4-minutemen-flag.png'
+
+class Minutemen extends Component {
 
   state = {
     toggle: false
@@ -15,34 +17,31 @@ class Cardify extends Component {
 
   render() {
     return (
-      <div className="project-card col-lg-4 col-md-6 col-sm-12 col-xs-12">
+      <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 project-card">
         {renderIf(this.state.toggle === false,
         <Card className="projects-content ">
-          <CardImg top width="100%" style={{maxHeight:"50%"}}src="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
-          <CardBody className="d-flex flex-column">
-            <CardTitle className="projects-title">Cardify</CardTitle>
-              <CardText>A group project with two other students, basic Trello clone.
+          <CardImg top width="100%" style={{maxHeight:"50%"}} src={flag} alt="Card image cap" />
+          <CardBody>
+            <CardTitle className="projects-title">We Are the Minutemen</CardTitle>
+              <CardText>My final school project. News/Blog page and IBM Watson survival assistant chatbot.
               </CardText>
             <Button className="project-button mt-auto" onClick={this.toggle}>Details</Button>
           </CardBody>
         </Card>
       )}
-
         {renderIf(this.state.toggle === true,
           <Card className="projects-content ">
             <Button className="toggle-project-button mt-auto" onClick={this.toggle}>X</Button>
             <CardBody>
-
-                <CardText>Server side rendered using Express, EJS, PostgreSQL, Bootstrap.<br/>
-                I was responsable for the Admin functionality as well as the authentication.<br/>
-                Created in three days as a group project.
+                <CardText>My Galvanize Capstone project. A reimagining of my Radio Freedom project, React/Redux, Bootstrap, Ruby on Rails, Bluemix, JSON web tokens for authentication and an IBM Watson powered survival assistant chatbot to help you survive the post apocalyptic wasteland.<br/>
+                Login credentials are Guest, Guest@email.com, password:12345
                 </CardText>
             </CardBody>
             <CardFooter className="project-footer">
-              <a href="https://rocky-retreat-92627.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://immense-temple-74459.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon="laptop" color="#586295" size="4x"/>
             </a>
-            <a href="https://github.com/Vrethao-Rastha/Q2-Group-Project" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Vrethao-Rastha/we-are-the-minutemen" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="font-icon" icon={["fab","github-square"]} color="#586295" size="4x"/>
             </a>
             </CardFooter>
@@ -53,4 +52,4 @@ class Cardify extends Component {
   }
 }
 
-export default Cardify;
+export default Minutemen;

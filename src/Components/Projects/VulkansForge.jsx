@@ -29,13 +29,10 @@ class VulkansForge extends Component {
           </CardBody>
         </Card>
       )}
-
         {renderIf(this.state.toggle === true,
           <Card className="projects-content ">
             <Button className="toggle-project-button" onClick={this.toggle}>X</Button>
-
             <CardBody>
-
                 <CardText>
                 My first attempt at a full stack React app, this was made over the course of four days,
                 using React, Redux, Bootstrap, Express and PostgreSQL.<br/>

@@ -29,17 +29,13 @@ class RadioFreedom extends Component {
             </CardBody>
           </Card>
         )}
-
-
           {renderIf(this.state.toggle === true,
           <Card className="projects-content ">
             <Button className="toggle-project-button" onClick={this.toggle}>X</Button>
             <CardBody>
-
               <CardText>My first school project, three weeks in.<br/>
               Also my first ever project, having never written code three weeks prior.<br/>
               Simple forward facing app using HTML, CSS and JavaScript.<br/> News and blog stories written by me, pictures are screenshots from my game.
-
             </CardText>
           </CardBody>
           <CardFooter className="project-footer">
