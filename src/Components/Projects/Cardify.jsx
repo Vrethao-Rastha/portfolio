@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardFooter,
   CardTitle, Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import renderIf from '../Util'
 class Cardify extends Component {
 
   state = {
@@ -16,7 +15,7 @@ class Cardify extends Component {
   render() {
     return (
       <div className="project-card col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        {renderIf(this.state.toggle === false,
+        {(this.state.toggle === false &&
         <Card className="projects-content ">
           <CardImg top width="100%" style={{maxHeight:"50%"}}src="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
           <CardBody className="d-flex flex-column">
@@ -27,7 +26,7 @@ class Cardify extends Component {
           </CardBody>
         </Card>
       )}
-        {renderIf(this.state.toggle === true,
+        {(this.state.toggle === true &&
           <Card className="projects-content ">
             <Button className="toggle-project-button mt-auto" onClick={this.toggle}>X</Button>
             <CardBody>

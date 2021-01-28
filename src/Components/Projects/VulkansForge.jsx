@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardFooter,
   CardTitle, Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import renderIf from '../Util'
 import Vulkan from '../../images/Vulkan.jpg'
 
 class VulkansForge extends Component {
@@ -18,7 +17,7 @@ class VulkansForge extends Component {
   render() {
     return (
       <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 project-card">
-        {renderIf(this.state.toggle === false,
+        {(this.state.toggle === false &&
         <Card className="projects-content ">
           <CardImg top width="100%" style={{maxHeight:"50%"}} src={Vulkan} alt="Card image cap" />
           <CardBody className="d-flex flex-column">
@@ -29,7 +28,7 @@ class VulkansForge extends Component {
           </CardBody>
         </Card>
       )}
-        {renderIf(this.state.toggle === true,
+        {(this.state.toggle === true &&
           <Card className="projects-content ">
             <Button className="toggle-project-button" onClick={this.toggle}>X</Button>
             <CardBody>
